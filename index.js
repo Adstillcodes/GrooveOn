@@ -10,8 +10,8 @@ const TOKEN = process.env.TOKEN
 
 const LOAD_SLASH = process.argv[2] == "load"
 
-const CLIENT_ID = "948997733337944174"
-const GUILD_ID = "949003139183443978"
+const CLIENT_ID = "YOUR CLIENT ID HERE"
+const GUILD_ID = "Enable developer mode on discord and right click on your server to get the ID"
 
 const client = new Discord.Client({
     intents: [
